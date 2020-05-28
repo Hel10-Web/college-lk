@@ -1,0 +1,75 @@
+body {
+    padding:0;
+    margin:0;
+    font-family: "Microsoft YaHei", "微软雅黑", "Microsoft JhengHei", "华文宋体", STHeiti, verdana,arial, sans-serif;
+}
+li{
+    list-style-type: none;
+    padding: 10px 0;
+    font-size: 16px;
+}
+.form-horizontal {
+    margin-top: 100px;
+    padding-top: 15px;
+    background: #fff;
+    padding-bottom: 40px;
+    border-radius: 15px;
+    text-align: center;
+}
+.form-horizontal .heading {
+    display: block;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 35px 0;
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 30px;
+    color:#269ABC;
+}
+.form-horizontal .form-group {
+    padding: 0 40px;
+    margin: 0 0 25px 0;
+    position: relative;
+}
+.form-horizontal .form-control {
+    background: #f0f0f0;
+    border: none;
+    border-radius: 20px;
+    box-shadow: none;
+    padding: 0 20px 0 45px;
+    height: 40px;
+    transition: all 0.3s ease 0s;
+    display: block;
+    width: 100%;
+    color: #ADADAD;
+}
+.li4 .registed {
+    display: block;
+    width: 100%;
+    padding: 7px 0;
+    border: 100px none;
+    color: #fff;
+    background-color: #269ABC;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.registed:hover {
+    border: 0px solid #253737;
+    text-shadow: 0 1px 0 #00B0DC;
+    background: #00B0DC;
+    color: #fff;
+}
+.registed:active {
+    margin-top:1px;
+    text-shadow: 0 -1px 0 #333333;
+    border: 1px solid #253737;
+    backgrond: #00B0DC;
+    color: #fff;
+}
+.form-horizontal .li3{
+    text-align: right;
+
+}
+.li3 .gologin {
+    font-size: 15px;
+    color: #337ab7;
+}

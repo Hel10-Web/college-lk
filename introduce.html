@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>撩课学院-个人认证</title>
+    <!-- 引入Bootstrap核心样式文件（必须） -->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+    <!-- 你自己的样式或其他文件 -->
+    <link rel="stylesheet" href="css/introduce.css">
+    <!--站点图标-->
+    <link rel="shortcut icon" href="imgs/lk_favicon.ico" type="image/x-icon">
+</head>
+<body>
+<!--顶部导航栏-->
+<div id="top">
+    <nav class="navbar navbar-default navbar-static-top navbar-lk">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="imgs/lk_logo_sm.png" alt="" width="180">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">课程分类<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">职场福利</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">编程与开发</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">微专业</a></li>
+                    <li>
+                        <a href="#">
+                            <i class="glyphicon glyphicon-gift"></i>关注领福利
+                            <img src="imgs/ewm_xzh.jpg" alt="" width="130">
+                        </a>
+                    </li>
+
+                </ul>
+                <form class="navbar-form navbar-left hidden-sm">
+                    <button type="submit" class="btn btn-default">
+                        <i class="glyphicon glyphicon-search"></i>
+                    </button>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Python数据分析师">
+                    </div>
+                </form>
+                <ul class="nav navbar-nav navbar-right hidden-sm hidden-md">
+                    <li><a href="#">我的学习</a></li>
+                    <li><a href="#">我的课程</a></li>
+                    <li><a href="index.html"><i class="glyphicon glyphicon-home" ></i></a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</div>
+<!--上部分-->
+<div class="page">
+    <div class="ux-user-info-center">
+        <div class="ux-user-info-top">
+            <div  class="ux-user-info-top_content f-pr">
+                <div class="ux-user-info-top_img">
+                    <img src="imgs/touxiang.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="ux-user-info-bottom">
+            <div class="ux-user-info-bottom_name">1800130507梁腾</div>
+            <div class="ux-user-info-bottom_description f-pr" >
+                <a href="edite.html" target="_blank">编辑我的资料</a></div>
+        </div>
+    </div>
+</div>
+<!--中间-->
+<!--<div class="center">
+    <div class="container">
+        <div class="row" align="center">
+            <img src="imgs/center.png"  class="img-responsive" alt="" width="1208" height="400px">
+        </div>
+    </div>
+</div>-->
+<!-- 内容--个人小介绍 -->
+<hgroup class="title">
+    <p><a name="zhuye">个人兴趣</a></p>
+</hgroup>
+<article class="content">
+    <section class="content1">
+        <div class="content2">
+            <hgroup class="title2">
+                <h2></h2>
+                <p>座右铭：路漫漫其修远兮，吾将上下而求索</p>
+                <p>没啥爱好，CTF算吗？又菜又爱玩</p>
+            </hgroup>
+        </div>
+    </section>
+</article>
+<!--项目介绍-->
+<hgroup class="t">
+    <p><a name="zhuye">项目介绍</a></p>
+</hgroup>
+<article class="c">
+    <section class="c1">
+        <div class="c2">
+            <hgroup class="t2">
+                <p>技术点：Html5，css,javascritp,bootstrap</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;该网站设计源于撩课学院，主页根据撩课学院仿制而来（<a href="http://itlike.com/">撩课学院</a>）适当的降低了开发的难度。
+                    网站中的所有图片来源于该学院网站。
+                   这是一个静态网站，一共5个页面。所有页面均为响应式<br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;登录页面（login.html）:注册功能，默认账号密码是zhangsan，123，可以选择游客登录，
+                    该页面放制了音乐播放器，可以播放、暂停、音量控制、快进快退。可以从这个页面跳转到主页和登录页面。
+                    按钮要求是圆角按钮，有鼠标悬停效果。
+                    用户名最大长度为10字符，密码为6位长度的数字
+                    背景应用了粒子特效<br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;注册页面（register.html）:这是一个静态的注册页面。该页面为保证美观，
+                    只设置了邮箱，账号，密码和确认密码四项。性别（单选按钮）、出生日期（使用date pickers）、
+                    是否接受邮件（复选按钮）、个人邮箱、个人简介（多行文本框）等信息放置在data.html页面
+                    背景应用了粒子特效。<br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;主页(index.html):可以跳转到登录、注册以及个人认证三处页面。<br><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;个人认证(user.html):点击编辑资料可以跳转到data.html页面。头像动态360度旋转特效。<br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;个人资料(data.html):实现资料编辑功能，使用各种表单控件。
+                </p>
+            </hgroup>
+        </div>
+    </section>
+</article>
+<!--底部-->
+<footer id="lk_footer" >
+    <div class="container">
+        <div class="row" style="padding-top: 20px;">
+            <div class="col-md-3 col-md-offset-1 one">
+                <div class="row">
+                    <ul class="col-md-6">
+                        <li><a href="">关于我们</a></li>
+                        <li><a href="">课程介绍</a></li>
+                        <li><a href="">热门课程</a></li>
+                    </ul>
+                    <ul class="col-md-6">
+                        <li><a href="">名师授课</a></li>
+                        <li><a href="">课堂互动</a></li>
+                        <li><a href="">联系我们</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 two">
+                <h5>公司地址: 上海市松江区松江大学城</h5>
+                <h5>联系电话: 六个六</h5>
+                <h5>地址邮箱: admin@it666.com</h5>
+            </div>
+            <div class="col-md-3 three">
+                <h5>联系我们:</h5>
+                <a href="">
+                    <img src="imgs/weixin-h.png" alt="" width="50" data-toggle="tooltip" data-placement="bottom"
+                         title="yejh9522">
+                    <img src="imgs/xinlang-h.png" alt="" width="50" data-toggle="tooltip" data-placement="bottom"
+                         title="关注微博">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="lib/jquery/jquery.js"></script>
+<!-- 引入所有的Bootstrap的JS插件 -->
+<script src="lib/bootstrap/js/bootstrap.js"></script>
+<!-- 你自己的脚本文件 -->
+<script src="js/index.js"></script>
+</body>
+</html>
